@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;    
+    src: url('./Resources/Roboto/Roboto-Medium.ttf');
+}
+
+html {
+    background: url(./Resources/141516.jpeg);
+}
+
+
+
+td {
+    border: 1px solid;
+    padding: 5px 5px 5px 5px;
+    border-radius: 0.5rem;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    border: solid;
+    padding: 10px 10px 10px 10px;
+    border-radius: 1rem;
+    color: white; 
+    border-color: rgb(106, 155, 247);
+    margin: 0 auto;
+    box-shadow: 5px 5px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    position: relative;
+    
+}
+h2, h3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3, p, td, table
+{
+    margin: 5 auto;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    position: relative;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+.code {
+    font-family: monospace;
+    color: rgb(164, 52, 255);
+    background-color: rgb(238, 237, 237);
+}
+
+#table-tags {
+    padding: 10px 10px 50px 10px;
+    margin: 0 auto;
+    /* background: url('./Resources/3671308.jpeg'); */
+    text-align: center;
+    border: 0.5px solid;
+    border-color: rgb(106, 155, 247);
+    border-radius: 0.5em;
+    width: 70em;
+
+}
+
+#table-one, #table-two  {
+    background-color: rgb(43, 42, 42);
+}
+
+
+//*See if you can use this code to make the background img transparent for the table section*//
+#table-tags::before {    
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+}
+
