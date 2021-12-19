@@ -22,7 +22,7 @@ table {
     padding: 10px 10px 10px 10px;
     border-radius: 1rem;
     color: white; 
-    border-color: rgb(106, 155, 247);
+    border-color: rgb(207, 218, 238);
     margin: 0 auto;
     box-shadow: 5px 5px;
 }
@@ -65,7 +65,7 @@ a {
     /* background: url('./Resources/3671308.jpeg'); */
     text-align: center;
     border: 0.5px solid;
-    border-color: rgb(106, 155, 247);
+    border-color: rgb(207, 218, 238);
     border-radius: 0.5em;
     width: 70em;
 
